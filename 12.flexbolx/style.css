@@ -1,0 +1,43 @@
+.flex-container {
+    background-color: indianred;
+    display: flex;
+    /* flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: row wrap; */
+    /* justify-content: flex-end;
+    justify-content: space-around;   same space between element 
+    justify-content: space-between; */
+    height: 70vh;
+    align-items: stretch; /* default value */
+    align-items: center;
+    align-items:  flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.flex-child{
+    background-color: wheat;
+    padding: 20px;
+    margin: 20px;
+    width: 150px;
+    text-align: center;
+    /* display: inline-block; */
+
+}
+
+#one{
+/* flex-grow: 1; */
+/* flex-shrink: 2; */
+order: 2;
+}
+ 
+#two{
+    /* flex-grow: 2; */
+    /* flex-shrink: 1; */
+    order: 4;
+}
+#three{
+    flex-shrink: 3;
+}

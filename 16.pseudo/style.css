@@ -1,0 +1,24 @@
+ body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+ }
+
+ .secondary-btn:hover{
+  color: red;
+
+ }
+
+ .secondary-btn{
+    color: green;
+ }
+ .secondary-btn:visited{
+    background-color: royalblue;
+    color: chartreuse;
+ }
+ .secondary-btn:active{
+    color: purple;
+    border: 4px solid green;
+ }
+ ul li:first-child{
+    background-color: blueviolet;
+ }

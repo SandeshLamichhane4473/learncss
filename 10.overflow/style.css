@@ -1,0 +1,17 @@
+.container{
+    border: 1px solid red;
+    width: 400px;
+    height: 200px;
+    overflow: auto;
+    /* overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+} */
+
+}
+
+.img1{
+    float: left;
+}
+
+/* how element should flaot */

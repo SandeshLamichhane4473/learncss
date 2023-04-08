@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 40px;
+    --myvar:rgb(205, 121, 121);
+    
+}
+/* global variable */
+:root{
+    --primary-text-color:red;
+    --secondary-text-color:yellow;
+    --background-color:wheat;
+
+
+}
+
+.dark{
+    --primary-text-color:#fff;
+    --secondary-text-color:wheat;
+    --background-color:black;
+}
+
+h1{
+    text-align: center;
+     
+    background-color: var(--myvar, green);
+    color: var(--primary-text-color);
+}
+.box{
+    --myvar:rgb(205, 121, 121);
+    padding:20px;
+    /* background-color: var(--myvar); */
+
+}
+.box h2 {
+    margin-bottom: 20px;
+    background-color: var(--myvar);
+    color: var(--secondary-text-color);
+
+
+}

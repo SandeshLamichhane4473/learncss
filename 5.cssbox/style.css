@@ -1,0 +1,10 @@
+.Box{
+    border: 20px solid red;
+    padding: 100px;
+    margin: 20px;
+    height: 200px;
+}
+
+body{
+ margin: 2rem;
+}

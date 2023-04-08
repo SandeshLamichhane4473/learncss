@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(192, 161, 161);
+    text-transform: capitalize;
+    text-indent: 40px;
+    letter-spacing: 0.1rem ;
+    line-height: 1.6rem;
+    word-spacing: 1rem;
+    text-shadow: 2px, 2px red;
+};
+p{  
+      
+};
+
+a{
+    text-decoration: overline;
+    text-decoration-color: brown;
+};

@@ -1,0 +1,19 @@
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+}
+
+.outer-box{
+    width: 100vh;
+    height: 100vh;
+    background: linear-gradient(to top left, #3e3e3e, #3f3f3f);
+}

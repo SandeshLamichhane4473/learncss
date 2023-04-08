@@ -1,0 +1,40 @@
+.right{
+    background-color: wheat;
+    height: 900px;
+}
+body{
+    height: 900px;
+    margin: 0;
+}
+ 
+.header1{
+   
+    top: 0px;
+    left: 0px;
+    height: 40px;
+    width: 100vw;
+    position: fixed;
+    background-color: purple;
+    
+}
+.container{
+    margin: 20px;
+     border: 1px solid red;
+     height: 200px;
+    display: inline-block;
+}
+
+.adbox{
+    height: 300px;
+    width: 150px;
+    background-color: rebeccapurple;
+}
+.parabox{
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+
+}
+.parabox p{
+    display: inline-block;
+}

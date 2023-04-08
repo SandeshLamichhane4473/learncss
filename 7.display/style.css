@@ -1,0 +1,36 @@
+*{
+    border: 1px solid red;
+    box-sizing: border-box;
+    margin: 0;
+     
+}
+p{
+  color: red;
+    width: 50%;
+    display: inline-block;
+    width: 300px;
+    
+}
+a{
+    width: 400px;
+    display: inline-block;
+}
+
+
+img{
+    width: 200px;
+}
+
+ul{
+    text-align: end;
+    list-style: none;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+li{
+    display: inline;
+}
+li:hover{
+    color: red;
+}

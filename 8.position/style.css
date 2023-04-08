@@ -1,0 +1,44 @@
+.container{
+    width: 300px;
+    height: 600px;
+    background-color: gainsboro;
+    margin: 100px;
+    position: relative;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+/* relative to parent 
+  absolute ko parent html hun6
+*/
+
+.box1{
+    top: 100px;
+    left: 100px;
+    position: relative;
+    background-color: red;
+    right: 50px;
+}
+.box2{
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* absolute work relative to next box that is relative  // jun parent relative xa tehi anusaar kaaam garxa*/
+}
+.box3{
+    background-color: yellow;
+    position: fixed;
+    left: 0;
+    
+}
+.box4{
+    background-color: purple;
+    position: sticky;
+    top: 50px;
+}
+.spacer{
+    height: 300vh;
+}
